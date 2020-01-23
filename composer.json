@@ -16,6 +16,10 @@
   },
   "repositories": [
 	{
+		"type": "composer",
+		"url": "https://wp-languages.github.io"
+	},
+	{
 	  "type": "composer",
 	  "url": "https://wpackagist.org"
 	}
@@ -30,6 +34,7 @@
 	"oscarotero/env": "^1.1.0",
 	"koodimonni/composer-dropin-installer": "1.1.0",
 	"johnpbloch/wordpress": "4.9.2",
+	"koodimonni-language/es_es": "*",
 	"roots/wp-password-bcrypt": "1.0.0",
 	"wpackagist-theme/hello-elementor":"2.2.2",
 	"wpackagist-plugin/wordfence": "6.3.22",
@@ -73,7 +78,10 @@
 	  "web/app": [
 		"package:wpackagist-plugin/redis-cache:includes/object-cache.php",
 		"package:frc/batcache:advanced-cache.php"
-	  ]
+	  ],
+	  "web/app/languages/": ["vendor:koodimonni-language"],
+      "web/app/languages/plugins/": ["vendor:koodimonni-plugin-language"],
+      "web/app/languages/themes/": ["vendor:koodimonni-theme-language"]
 	},
 	"wordpress-install-dir": "web/wp"
   },

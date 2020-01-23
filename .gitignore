@@ -7,6 +7,10 @@ web/app/uploads/*
 !web/app/uploads/.gitkeep
 web/app/themes/*
 !web/app/themes/.gitkeep
+web/app/languages/plugins/*
+!web/app/languages/plugins/.gitkeep
+web/app/languages/themes/*
+!web/app/languages/themes/.gitkeep
 
 # WordPress
 web/wp
@@ -33,3 +37,5 @@ web/.htaccess
 # WP Plugins
 web/app/object-cache.php
 web/app/advanced-cache.php
+
+wp-content
