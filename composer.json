@@ -37,6 +37,7 @@
 	"koodimonni-language/es_es": "*",
 	"roots/wp-password-bcrypt": "1.0.0",
 	"wpackagist-theme/hello-elementor":"2.2.2",
+	"wpackagist-plugin/elementor":"2.8.4",
 	"wpackagist-theme/astra":"2.2.1",
 	"wpackagist-theme/onepress":"2.2.4",
 	"wpackagist-plugin/astra-sites":"1.4.5",
@@ -72,6 +73,7 @@
 		"wpackagist-plugin/wordfence",
 		"wpackagist-plugin/all-in-one-seo-pack",
 		"wpackagist-plugin/debug-bar",
+		"wpackagist-plugin/elementor",
 		"wpackagist-plugin/astra-sites",
 		"wpackagist-plugin/astra-widgets"
 	  ],
