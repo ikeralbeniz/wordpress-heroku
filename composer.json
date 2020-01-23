@@ -70,11 +70,14 @@
 	  "web/app/plugins/{$name}/": [
 		"wpackagist-plugin/wordfence",
 		"wpackagist-plugin/all-in-one-seo-pack",
-		"wpackagist-plugin/debug-bar"
+		"wpackagist-plugin/debug-bar",
+		"wpackagist-plugin/astra-sites",
+		"wpackagist-plugin/astra-widgets"
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme",
-		"wpackagist-theme/hello-elementor"
+		"wpackagist-theme/hello-elementor",
+		"wpackagist-theme/astra"
 	  ]
 	},
 	"dropin-paths": {
