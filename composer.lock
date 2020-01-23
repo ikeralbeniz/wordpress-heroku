@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5a11e1264c129f4b0d2c185930bcbf8",
+    "content-hash": "ac647fa40fd2319ff33c1fc33c69a168",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -4089,6 +4089,24 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/hello-elementor/"
+        },
+        {
+            "name": "wpackagist-theme/onepress",
+            "version": "2.2.4",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/onepress/",
+                "reference": "2.2.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/onepress.2.2.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/onepress/"
         }
     ],
     "packages-dev": [
