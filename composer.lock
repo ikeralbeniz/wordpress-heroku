@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "910574a441f9516a0b17f66c01b69917",
+    "content-hash": "f9b5a7c8f2b3a8232326891221f1d62d",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3861,6 +3861,42 @@
             "homepage": "https://wordpress.org/plugins/all-in-one-seo-pack/"
         },
         {
+            "name": "wpackagist-plugin/astra-sites",
+            "version": "1.4.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/astra-sites/",
+                "reference": "tags/1.4.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/astra-sites.1.4.5.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/astra-sites/"
+        },
+        {
+            "name": "wpackagist-plugin/astra-widgets",
+            "version": "1.2.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/astra-widgets/",
+                "reference": "tags/1.2.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/astra-widgets.1.2.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/astra-widgets/"
+        },
+        {
             "name": "wpackagist-plugin/debug-bar",
             "version": "0.9",
             "source": {
@@ -3967,6 +4003,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordfence/"
+        },
+        {
+            "name": "wpackagist-theme/astra",
+            "version": "2.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/astra/",
+                "reference": "2.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/astra.2.2.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/astra/"
         },
         {
             "name": "wpackagist-theme/hello-elementor",
